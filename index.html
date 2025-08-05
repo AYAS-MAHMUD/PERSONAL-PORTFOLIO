@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>AYAS MAHMUD</title>
+    <link rel="website icon" type="svg" href="./asset/logo.svg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -12,7 +13,7 @@
     <header class=" bg-[#171A17]">
         <nav class="md:max-w-[88%] mx-auto flex justify-between items-center  px-4 py-2 rounded-lg">
             <div class=""><img class="h-15 mt-2" src="./asset/logo.svg" alt=""></div>
-            <ul class="navlinks md:flex md:static absolute top-[-100%] grid justify-center left-0 max-w-[-25%] right-0 p-5 backdrop-blur-3xl text-white space-x-6 text-xl">
+            <ul class="navlinks md:flex md:static absolute top-[-100%] grid justify-center left-0 max-w-[-25%] right-0 p-5 backdrop-blur-3xl text-white space-x-6 text-md">
                 <li><a class="hover:text-[#83C33a]  transition-colors duration-400" href="#">Home</a></li>
                 <li><a class="hover:text-[#83C33a] transition-colors duration-400" href="#">About Me</a></li>
                 <li><a class="hover:text-[#83C33a] transition-colors duration-400" href="#">Services</a></li>
@@ -20,10 +21,11 @@
                 <li><a class="hover:text-[#83C33a] transition-colors duration-400" href="#">Portfolio</a></li>
                 <li><a class="hover:text-[#83C33a] transition-colors duration-400" href="#">Testimonial</a></li> <!--#ABEF5F -->
             </ul>
-             <span class="md:hidden text-white"><i onclick="togglemenu(this)" class="fa-solid fa-bars text-2xl "></i></span>
-            <div>
+            <div class="space-x-2">
                 <button class="bg-[#83C33a] px-4 py-2 rounded-full font-medium hover:bg-[#171A17] ring-2 ring-[#83C33a] hover:text-[#83C33a] transition-colors duration-400"><i class="fa-solid fa-paper-plane"></i> Contact</button>
+                <span class="md:hidden text-white"><i onclick="togglemenu(this)" class="fa-solid fa-bars text-2xl "></i></span>
             </div>
+
         </nav>
         <div>
             <h1 class="hidden md:block md:text-[250px] text-center font-bold text-[#272C27] select-none">MAHMUD</h1>
@@ -32,13 +34,46 @@
             <div>
                 <img class="md:-mt-110 md:mx-auto z-1111  md:w-[50%]" src="./asset/1698715992348-removebg-preview-Pica.png" alt="">
             </div>
-            <div>
-                <h1 class=" mt-10 md:mt-0  text-white">Hello! <br> I'm a <span class="text-[#83C33a] font-medium">Frontend Developer</span></h1>
+            <div class="p-7 md:p-10 md:-mt-120 md:ml-12">
+                <h1 class="text-2xl sm:text-3xl md:text-4xl text-white">Hello! <br> I'm <span class="font-bold">AYAS MAHMUD</span> <br> a <span class="text-[#83C33a] font-medium">Frontend Developer</span></h1>
+                <p class=" my-3 text-gray-400">A personal portfolio is a  collection of your work,<br> achievements, and skills that highlights your <br> abilities and professional growth. It serves as</p>
+                <button class="bg-[#83C33a] mt-5  px-4 py-2 rounded-full font-medium hover:bg-[#171A17] ring-2 ring-[#83C33a] hover:text-[#83C33a] transition-colors duration-400"><i class="fa-solid fa-paper-plane"></i> Collaborate with me</button>
+
             </div>
-            <div></div>
+            <div class="hidden md:block relative -top-80 left-250">
+                <h1 class="text-white mb-5 ml-15">Connect Me</h1>
+                <div class="text-white text-2xl space-x-5">
+                    <a href=""><i class="fa-brands fa-facebook hover:text-[#83C33a] transition-colors duration-400"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram hover:text-[#83C33a] transition-colors duration-400"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter hover:text-[#83C33a] transition-colors duration-400"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin hover:text-[#83C33a] transition-colors duration-400"></i></a>
+                    <a href=""><i class="fa-brands fa-github hover:text-[#83C33a] transition-colors duration-400"></i></a>
+                </div>
+                <div class="mt-8 ml-15">
+                    <p class="text-white font-bold">Experience</p>
+                    <h1 class="text-4xl text-[#83C33a]">5 year</h1>
+                </div>
+            </div>
         </div>
     </header>
     <main>
+        <!-- About me -->
+        <section class="max-w-[88%] md:max-w-[88%] mx-auto" >
+            <div class="relative text-center py-15">
+                <h1 class="text-5xl md:text-8xl font-bold text-gray-200 uppercase tracking-widest mb-4">About Me</h1>
+                <h2 class="text-xl md:text-3xl font-semibold text-black inline-block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">Know Me More</h2>
+                <span class="block h-1 w-20 bg-green-500 mx-auto -mt-4 rounded"></span>
+            </div>
+            <div class="gird md:grid-cols md:flex gap-9">
+                <img src="./asset/about-img.png" alt="">
+                <div class="md:p-10">
+                    <h1 class="mt-5 md:text-xl md:mt-10">My name is <span class="font-semibold text-[#83C33a]">AYAS MAHMUD</span>. I am a passionate and dedicated Computer Science Student and a future Full-Stack developer. I love creating websites, learning new technologies and solving problems using code. I have knowledge in HTML, CSS, JavaScript,React,Tailwind,Node Js, and C, C++, Java and Python. My dream is to become a skilled developer and work on exciting projects that help people and make a difference in the world. I believe in hard work, learning every day and always doing my best.</h1>
+                    <button class="bg-[#83C33a] mt-5  px-4 w-full md:w-50 py-2 rounded-full font-medium hover:bg-[#171A17] ring-2 ring-[#83C33a] hover:text-[#83C33a] transition-colors duration-400">Downlode CV  <i class="fa-solid fa-arrows-to-eye"></i></button>
+
+                </div>
+
+            </div>
+        </section>
     </main>
     <footer>
 
